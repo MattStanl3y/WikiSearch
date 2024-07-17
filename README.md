@@ -2,14 +2,12 @@
 
 Wiki_Search is a simple Python script that allows users to search for information on Wikipedia topics directly from the command line.
 
-## Goals of this project
+## Project Goals
 
 - Learn and implement virtual environments
 - Learn and Practice web scraping using Python
 - Interact with a public API (Wikipedia)
-- Build a command-line interface for user interaction
-- Handle and process user input
-- Implement error handling for network requests
+- Create a command-line interface that processes user input and handles network request errors.
 
 ## Features
 
@@ -55,14 +53,6 @@ python wiki_search.py
 ```
 
 Follow the prompts to enter your search terms. The program will display the first paragraph of the corresponding Wikipedia article.
-
-## How it works
-
-1. The script takes user input for a search term.
-2. It constructs a Wikipedia URL based on the input.
-3. It sends a request to the Wikipedia page and scrapes the content.
-4. The first non-empty paragraph from the main content is extracted and displayed.
-5. Users can choose to perform additional searches or exit the program.
 
 ## Limitations
 
