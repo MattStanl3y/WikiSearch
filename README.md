@@ -25,13 +25,24 @@ Wiki_Search is a simple Python script that allows users to search for informatio
 
 ## Setup
 
-This project uses a virtual environment with all required libraries pre-installed, here are the _steps to run the virtual enviornment_:
+This project contains a **_requirements.txt_** file. Here are the steps:
 
-1. Ensure Python 3.x is installed on your system. You can download it from [python.org](https://www.python.org/downloads/) if needed.
+1. Make sure Python is installed on your system
 
-2. Clone this repository or download the script and associated virtual environment.
+2. Clone this repository
 
-3. Activate the virtual environment:
+3. Create virtual environment:
+
+   - On Windows:
+     ```
+     python -m venv venv
+     ```
+   - On macOS and Linux:
+     ```
+     python3 -m venv venv
+     ```
+
+4. Activate the virtual environment:
 
    - On Windows:
      ```
@@ -42,11 +53,15 @@ This project uses a virtual environment with all required libraries pre-installe
      source venv/bin/activate
      ```
 
-   When activated, your command prompt should change to indicate that you're now working within the virtual environment.
+5. Install dependencies:
+
+   - ```
+     pip install -r requirements.txt
+     ```
 
 ## Usage
 
-With the virtual environment activated, run the script using Python:
+With the virtual environment created, activated, and dependencies installed, run the script using Python:
 
 ```
 python wiki_search.py
